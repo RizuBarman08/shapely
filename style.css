@@ -1,8 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins',sans-serif;
+    font-family: 'Raleway';
 }
 html, body{
     height: 100%;
@@ -25,9 +26,9 @@ nav .logo h1{
     font-size: 1.6rem;
     padding: 1.6rem 9rem;
     font-weight: normal;
-    font-family: 'poppins', sans-serif;
     letter-spacing: 1px;
     align-items: center;
+    font-weight: lighter;
 }
 nav ul{
     display: flex;
@@ -40,7 +41,6 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: black;
-     font-family: 'poppins',sans-serif;
      /* transition: .3s; */
 }
 nav .search{
@@ -75,7 +75,6 @@ nav ul li a :hover{
 .main .hero h1{
     font-size: 3.5rem;
     font-weight: 700;
-    font-family: 'lato',sans-serif;
 }
 .main .hero h2{
     font-size: 3.5rem;
