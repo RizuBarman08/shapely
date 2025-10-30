@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1000;
+    position: fixed;
+}
+nav .logo h1{
+    font-size: 1.6rem;
+    padding: 1.6rem 9rem;
+    font-weight: normal;
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 1px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    padding-right: 10rem;
+    list-style: none;
+    font-size: .8rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+     font-family: 'poppins',sans-serif;
+     /* transition: .3s; */
+}
+nav .search{
+    padding-left: 4rem;
+    color: blueviolet;
+}
+nav li i{
+    color: blueviolet;
+    padding-left: .5rem;
+    font-size: 9px;
+    font-weight: bold;
+}
+nav ul li a :hover{
+    color: blueviolet;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1044129264/photo/abstract-water-surface.jpg?s=612x612&w=0&k=20&c=utC0ZXZvgbbjNxUMJYWOfQI-Mkn8WNbMEJzags6TO-8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    background-attachment: fixed;
+    padding-top: 7rem;
+}
+.main .hero h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'lato',sans-serif;
+}
+.main .hero h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem; 
+}
+.main .hero p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.hero button{
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px; 
+}
+.hero .bt1{
+    padding: 1rem 4rem;
+    list-style: none;
+    background-color: #745cf9;
+    border:solid #745cf9;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.hero .bt1  a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+/* .hero .bt1 :hover{
+    background-color: #5943d3;
+} */
+.hero .bt2{
+    margin-left: .4rem;
+    padding: 1rem 3rem;
+    background-color: transparent;
+    border:solid white .2rem;
+}
+.hero .bt2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.seo{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.seo .img1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    /* margin: 10rem; */
+    /* padding: 5rem; */
+}
+.seo .laptop1{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.seo .text1{
+    padding: 10rem 7rem;
+}
+.seo .text1 h1{
+    font-weight: lighter;
+}
+.seo p{
+    padding: 1.5rem 0;
+    line-height:1.8rem;
+    font-weight: lighter;
+    color: gray;
+    padding-right: 2rem;
+    font-size: .9rem;
+    
+}
+.seo button{
+    padding: 1rem 3.5rem;
+    background-color: #745cf9;
+    border: none;
+}
+.seo button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.portfolio .img2{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    /* margin: 10rem; */
+    padding: 5rem;
+}
+.portfolio .text2{
+    padding: 10rem 7rem;
+}
+.portfolio .text2 h1{
+    font-weight: lighter;
+}
+.portfolio p{
+    padding: 1.5rem 0;
+    line-height:1.8rem;
+    font-weight: lighter;
+    color: gray;
+    padding-right: 2rem;
+    font-size: .9rem;
+}
+.portfolio button{
+    padding: 1rem 3rem;
+    background-color: #745cf9;
+    border: none;
+}
+.portfolio button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.parallax{
+    height: 65%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1449496266/photo/blue-ocean-wave-splashing-on-the-beach-sea-wave.webp?a=1&b=1&s=612x612&w=0&k=20&c=wvGG6gUbIAG4PKcqf0MdTWTL7PXLK-_FtLsFHyWv-c0=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    background-attachment: fixed;
+}
+.parallax h1{
+    font-size: 4rem;
+    font-weight: lighter;
+    padding: 2rem ;
+    padding-top: 6rem;
+    text-align: center;
+}
+.parallax p{
+    font-size: .9rem;
+    padding: 0 14.5rem;
+    line-height: 1.8rem;
+
+}
+.parallax button{
+    padding: 1rem 4rem;
+    background-color: #745cf9;
+    border: none;
+    margin-top: 2rem;
+}
+.parallax button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.limitless{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+.limitless h1{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: 2rem;
+    padding-top: 6rem;
+    text-align: center;
+}
+.limitless p{
+    text-align: center;
+    font-size: .9rem;
+    padding: 0 14rem;
+    color: gray;
+    line-height: 1.8rem;
+} 
+.limitless button{
+    padding: 1rem 3rem;
+    background-color: #745cf9;
+    border: none;
+    margin: 1.5rem 35rem;
+    margin-top: 2rem; 
+}
+.limitless button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+ .img3{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+ .sunset{
+    height: 150%;
+    width: 87%;
+}
+.black{
+    height: 33%;
+    width: 100%;
+    background-color: black;
+    margin-top: 19.9rem;
+    text-align: center;
+}
+.black h1{
+    color: white;
+    font-weight: lighter;
+    padding-top: 5rem;
+}
+.black p{
+    color: white;
+    padding: 2rem;
+    font-size: .9rem;
+}
+.customers{
+    height: 60%;
+    width: 100%;
+    text-align: center;
+}
+
